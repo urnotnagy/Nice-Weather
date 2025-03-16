@@ -4,6 +4,6 @@ Nice weather is a simple weather application made with kotline that allows viewi
 
 https://github.com/urnotnagy/Nice-Weather/blob/main/pics/alexandria.png
 
-![alt text]([http://url/to/img.png](https://github.com/urnotnagy/Nice-Weather/blob/main/pics/budapest.png)
-![alt text]([http://url/to/img.png](https://github.com/urnotnagy/Nice-Weather/blob/main/pics/finland.png)
-![alt text]([http://url/to/img.png](https://github.com/urnotnagy/Nice-Weather/blob/main/pics/alexandria.png)
+![budapest](https://github.com/urnotnagy/Nice-Weather/blob/main/pics/budapest.png)
+![finland](https://github.com/urnotnagy/Nice-Weather/blob/main/pics/finland.png)
+![alexandria](https://github.com/urnotnagy/Nice-Weather/blob/main/pics/alexandria.png)
