@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipeRefreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header Section -->
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sun, Nov 11 2024"
+            android:textColor="@color/weatherTextColor"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/textViewLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Budapest"
+            android:textColor="@color/weatherTextColor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal" />
+
+        <!-- Main Temperature and Weather Description -->
+        <TextView
+            android:id="@+id/textViewTemperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14°C"
+            android:textColor="@color/weatherTextColor"
+        android:textSize="48sp"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="16dp" />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slightly Cloudy"
+            android:textColor="@color/weatherTextColor"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal" />
+
+        <!-- Weather Icon -->
+        <ImageView
+            android:id="@+id/imageViewWeatherIcon"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="16dp" />
+
+        <!-- RecyclerView for Weather Details -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewWeather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="24dp" />
+    </LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
